@@ -1,7 +1,7 @@
 import socket
 
-HOST = '127.0.0.1'    # 접속할 서버 주소 (localhost)
-PORT = 12345         # 접속할 서버의 포트 번호 (서버와 동일하게 설정)
+HOST = '127.0.0.1'   
+PORT = 12345
 
 # 소켓 생성 (IPv4, TCP)
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
